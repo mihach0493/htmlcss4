@@ -9,27 +9,23 @@ div {
  
   }
   
+#taller, #shorter, #parent, #child{
+  height: 100px;
+  width: 150px;
+}
+
   #taller {
-    height: 100px;
-    width: 150px;
-    background-color:rgba(0, 0, 0, 0.80)
+  background-color:rgba(0, 0, 0, 0.80)
   }
   
   #shorter {
-    height: 100px;
-    width: 150px;
-    
-    background-color:rgba(0, 0, 0, 0.60)
+   background-color:rgba(0, 0, 0, 0.60)
        }
        
     #parent {
-      height: 100px;
-      width: 150px;
       background-color:rgba(0, 0, 0, 0.45)
   }
   
   #child{
-      height: 100px;
-      width: 150px;
-      background-color: rgba(0,0,0, 0.30)
+    background-color: rgba(0,0,0, 0.30)
   }
